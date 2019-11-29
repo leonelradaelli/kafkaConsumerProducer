@@ -11,6 +11,7 @@ public class KafkaAvroApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }

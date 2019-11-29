@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-import io.confluent.developer.User;
+import io.confluent.developer.Persona;
 import lombok.extern.apachecommons.CommonsLog;
 
 @Service
@@ -16,7 +16,7 @@ public class Consumer {
   private String topicName;
 
   @KafkaListener(topics = "users", groupId = "group_id")
-  public void consume(ConsumerRecord<String, User> record) {
+  public void consume(ConsumerRecord<String, Persona> record) {
     log.info(String.format("Consumed message -> %s", record.value()));
   }
 }
