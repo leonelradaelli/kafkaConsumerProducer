@@ -5,6 +5,6 @@
      "version": "1",
      "fields": [
        { "name": "nombre", "type": "string"},
-       { "name": "apellido", "type": "string"}
+              { "name": "apellido", "type": "string"}
      ]
 }
