@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.confluent.developer</groupId>
-    <artifactId>kafka-avro</artifactId>
+    <artifactId>kafka-avro-producer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>kafka-avro</name>
     <description>Demo project for Spring Boot</description>

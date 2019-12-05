@@ -1,9 +1,9 @@
 topic:
-  name: personas
+  name: persona
   partitions-num: 3
   replication-factor: 1
 server:
-  port: 9080
+  port: 9081
 spring:
   kafka:
     bootstrap-servers:
